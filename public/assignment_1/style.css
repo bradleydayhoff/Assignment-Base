@@ -6,10 +6,18 @@ h2{
 body{
     background-color: blueviolet;
 
+}
 ul li {
     color: black;
     margin-bottom: 15px;
     margin-top: 15px;
     background-image: linear-gradient(tan, white);
     max-width: 450px;
+}
+
+span {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
