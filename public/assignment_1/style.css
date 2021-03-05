@@ -1,7 +1,15 @@
+
 h2{
     text-underline-position: below;
 }
 
 body{
     background-color: blueviolet;
+
+ul li {
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-image: linear-gradient(tan, white);
+    max-width: 450px;
 }
