@@ -5,6 +5,7 @@
 
 body{
     background-color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 ul li {
@@ -31,16 +32,17 @@ input{
 
     /*background-color: blueviolet;*/
 
-
 .suggestions{
     background-color: blueviolet;
-
+    font-size: small;
 }
 .search-form{
     background-color: blueviolet;
 }
 .notification{
     background-color: blueviolet;
+    font-size: xx-large;
+    text-underline-position: below;
 }
 .is-link{
     background-color: blueviolet;
@@ -50,8 +52,4 @@ div{
     background-color: blueviolet;
 }
 */
-.name{
-    font-weight: bold;
-    font-size: x-large;
-}
 
