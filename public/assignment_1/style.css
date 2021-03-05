@@ -34,23 +34,24 @@ input{
 
 .suggestions{
     background-color: blueviolet;
-    font-size: small;
+
 }
 .search-form{
     background-color: blueviolet;
 }
 .notification{
     background-color: blueviolet;
-    font-size: xx-large;
-    text-underline-position: below;
 }
 .is-link{
     background-color: blueviolet;
-    text-underline-position: below;
 }
 /*
 div{
     background-color: blueviolet;
 }
 */
+.name{
+    font-weight: bold;
+    font-size: x-large;
+}
 
