@@ -22,15 +22,15 @@ span {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-<<<<<<< HEAD
+
 }
 
 input{
     width: 450px;
 }
-=======
+
     /*background-color: blueviolet;*/
-}
+
 
 .suggestions{
     background-color: blueviolet;
@@ -46,10 +46,11 @@ input{
 }
 .is-link{
     background-color: blueviolet;
+    text-underline-position: below;
 }
 /*
 div{
     background-color: blueviolet;
 }
 */
->>>>>>> c724f2fcb0727bc0907eaf779dbf20b69b3209a5
+
