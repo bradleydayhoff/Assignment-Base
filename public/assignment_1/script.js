@@ -12,7 +12,7 @@ async function windowActions() {
       return data.filter((place) => {
         const regex = new RegExp(wordToMatch, 'gi');
         return place.city.match(regex) || place.name.match(regex) 
-                || place.zip.match(regex)  || place.zip.match(regex);
+                || place.zip.match(regex)  || place.category.match(regex);
       });
     }
   
