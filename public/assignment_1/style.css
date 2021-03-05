@@ -13,6 +13,8 @@ ul li {
     margin-top: 15px;
     background-image: linear-gradient(tan, white);
     max-width: 450px;
+    background-color: blueviolet;
+    
 }
 
 span {
@@ -20,4 +22,5 @@ span {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    background-color: blueviolet;
 }
