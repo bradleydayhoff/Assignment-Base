@@ -31,6 +31,6 @@ span {
 .search-form{
     background-color: blueviolet;
 }
-.notification is-primary{
+.notification .is-primary{
     background-color: blueviolet;
 }
