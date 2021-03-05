@@ -21,3 +21,7 @@ span {
     flex-wrap: wrap;
     align-items: center;
 }
+
+input{
+    width: 450px;
+}
