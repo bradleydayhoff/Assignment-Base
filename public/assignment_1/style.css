@@ -5,6 +5,7 @@
 
 body{
     background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 ul li {
@@ -57,4 +58,3 @@ div{
 .city{
     font-size: medium;
 }
-
