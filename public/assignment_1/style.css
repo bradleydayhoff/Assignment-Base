@@ -1,4 +1,11 @@
 
+h2{
+    text-underline-position: below;
+}
+
+body{
+    background-color: blueviolet;
+
 ul li {
     color: black;
     margin-bottom: 15px;
