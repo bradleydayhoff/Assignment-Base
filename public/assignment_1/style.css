@@ -53,8 +53,8 @@ div{
 */
 .name{
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
 }
-.city{
+.city .category{
     font-size: medium;
 }
