@@ -1,19 +1,22 @@
 
 h1{
+    margin-left: 10px;
     font-size: xx-large;
     font-weight: bold;
     text-underline-position: below;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 body{
-    background-color: blue;
+    background-color: #3273dc;
 
 }
 ul li {
     color: black;
     margin-bottom: 15px;
     margin-top: 15px;
+    margin-left: 10px;
     background-image: linear-gradient(tan, white);
     max-width: 450px;
    /* background-color: blueviolet; */
@@ -29,6 +32,7 @@ span {
 }
 
 input{
+    margin-left: 10px;
     height: 30px;
     width: 450px;
 }
@@ -37,19 +41,19 @@ input{
 
 
 .suggestions{
-    background-color: blue;
+    background-color: #3273dc;
     font-size: small;
 }
 .search-form{
-    background-color: blue;
+    background-color: #3273dc;
 }
 .notification{
-    background-color: blue;
-    font-size: xx-large;
+    background-color: #3273dc;
+    
     text-underline-position: below;
 }
 .is-link{
-    background-color: blue;
+    background-color: #3273dc;
 }
 /*
 div{
