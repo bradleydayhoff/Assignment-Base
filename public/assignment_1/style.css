@@ -3,6 +3,7 @@ h1{
     font-size: xx-large;
     font-weight: bold;
     text-underline-position: below;
+    margin-bottom: 20px;
 }
 
 body{
