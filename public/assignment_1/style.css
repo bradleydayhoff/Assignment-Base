@@ -4,7 +4,7 @@
 }*/
 
 body{
-    background-color: blueviolet;
+    background-color: blue;
 
 }
 ul li {
@@ -33,19 +33,19 @@ input{
 
 
 .suggestions{
-    background-color: blueviolet;
+    background-color: blue;
     font-size: small;
 }
 .search-form{
-    background-color: blueviolet;
+    background-color: blue;
 }
 .notification{
-    background-color: blueviolet;
+    background-color: blue;
     font-size: xx-large;
     text-underline-position: below;
 }
 .is-link{
-    background-color: blueviolet;
+    background-color: blue;
 }
 /*
 div{
