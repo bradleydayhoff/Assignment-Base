@@ -62,8 +62,11 @@ div{
 */
 
 .name {
+    text-transform: lowercase;
     font-size: large;
-    font-weight: bold;
+}
+.name {
+    text-transform: capitalize;
 }
 
 .category .city .zip {

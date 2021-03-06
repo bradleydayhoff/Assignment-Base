@@ -12,7 +12,7 @@ async function windowActions() {
       return data.filter((place) => {
         const regex = new RegExp(wordToMatch, 'gi');
         return place.city.match(regex) || place.name.match(regex) 
-                || place.zip.match(regex)  || place.category.match(regex);
+          || place.category.match(regex) || place.zip.match(regex);
       });
     }
   
@@ -20,10 +20,10 @@ async function windowActions() {
       const matchArray = findMatches(event.target.value, data);
       const html = matchArray.map((place) => `
             <li>
-              <span class="name">${place.name}</span>
-              <span class = "category">${place.category}</span>
-              <span class = "city">${place.city}</span>
-              <span class = "zipcode">${place.zip}</span>
+              <span class="name">${place.name.toLowerCase()}</span>
+              <span class="name">${place.category.toLowerCase()}</span>
+              <span class="name">${place.city.toLowerCase()}</span>
+              <span class="name">${place.zip.toLowerCase()}</span>
             </li>
           `).join('');
       suggestions.innerHTML = html;
