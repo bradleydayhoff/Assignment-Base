@@ -54,5 +54,10 @@ div{
 */
 
 .name {
+    font-size: large;
     font-weight: bold;
+}
+
+.category .city .zip {
+    font-size: medium;
 }
