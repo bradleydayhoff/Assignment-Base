@@ -21,9 +21,9 @@ async function windowActions() {
       const html = matchArray.map((place) => `
             <li>
               <span class="name">${place.name.toLowerCase()}</span>
-              <span class="name">${place.category.toLowerCase()}</span>
-              <span class="name">${place.city.toLowerCase()}</span>
-              <span class="name">${place.zip.toLowerCase()}</span>
+              <span class="category">${place.category.toLowerCase()}</span>
+              <span class="city">${place.city.toLowerCase()}</span>
+              <span class="zip">${place.zip.toLowerCase()}</span>
             </li>
           `).join('');
       suggestions.innerHTML = html;

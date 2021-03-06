@@ -67,6 +67,15 @@ div{
     font-size: large;
 }
 
-.category .city .zip {
+.category {
+    text-transform: capitalize;
+    font-size: medium;
+}
+.city {
+    text-transform: capitalize;
+    font-size: medium;
+}
+.zip {
+    text-transform: capitalize;
     font-size: medium;
 }
